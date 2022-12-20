@@ -4,9 +4,9 @@ var modal = $('#signup-modal');
 var closeButton = $('#close-modal');
 
 closeButton.click(function() {
-    modal.slideUp(1000);
+    '#signup-modal'.slideUp(1000);
 });
 
 signButton.click(function() {
-    modal.slideDown(1000);
+    '#signup-modal'.slideDown(1000);
 });
