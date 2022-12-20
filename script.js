@@ -1,5 +1,6 @@
 //Please put your answer here
 var signButton = $(".signup-show");
+var modal = $('#signup-modal');
 var closeButton = $('#close-modal');
 
 closeButton.click(function() {
